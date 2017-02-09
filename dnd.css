@@ -1,0 +1,194 @@
+body{background-color:black;
+color:orange;
+font-family:Verdana, Arial, sans-serif;
+text-align:center-left;}
+
+body li{text-align:left;}
+
+h5{
+	color:silver;
+	background-color:black;
+	border:5px solid black;
+	text-align: center-right;
+}
+h5 a:link{color:red;}
+h5 a:visited{color:blue;}
+h5 a:hover{color:green;}
+
+h3{color:Magenta;
+border:10px solid tan;}
+
+h4{color:Maroon;
+border:10px solid tan;}
+
+h1{background-image:url("images/dndlogo.gif");
+margin:0;
+background-position:center;
+background-repeat:no-repeat;
+height:156px;
+background-color:black;}
+
+footer{color:yellow;
+text-align:center;
+border: 5px solid tan;}
+
+footer a:link{color:red;}
+footer a:visited{color:blue;}
+footer a:hover{color:green;}
+
+nav{text-align:center;
+padding-top:10px;
+font-weight:bold;
+float:left;
+width:150px;}
+
+nav a{text-decoration:none;
+padding-bottom:15px;}
+
+nav a:link{color:red;}
+nav a:visited{color:blue;}
+nav a:hover{color:green;}
+nav ul{list-style-type:none;}
+
+header{background-color:orange;
+text-indent:100%;
+white-space:nowrap;
+overflow:hidden;
+color:white;
+text-align:center;}
+
+img{border:none;
+padding:10px;
+margin-right:auto;
+margin-left:auto;}
+
+figure{margin: 0 auto .55em;
+display:block;
+padding:10px;
+text-align:center;}
+
+figcaption{text-align:center;}
+
+main{padding-top:10px;
+padding-bottom:30px;
+padding-left: 20px;
+padding-right:20px;
+margin-left:150px;
+background-color:black;
+color:orange;
+overflow:auto;
+text-align:center;}
+
+main a{text-decoration:none;
+padding-bottom:15px;}
+
+main a:link{color:red;}
+main a:visited{color:blue;}
+main a:hover{color:green;}
+
+#wrapper{background-color:black;
+margin-left:auto;
+margin-right:auto;
+min-width:700px;
+max-width:3072px;
+box-shadow;}
+
+.details{padding-left:20%;
+padding-right:20%;
+overflow: auto;}
+
+img{border:none;}
+
+.floatleft{float:left;
+padding-bottom:20px;
+padding-right:20px;}
+
+header, nav, main, footer{display: block;}
+
+.floatright{float:right;
+padding-bottom:20px;
+padding-right:20px;}
+
+#mobile{display:none;}
+
+#desktop{display:inline;}
+
+@media only screen and (max-width: 1024px)
+{body{margin:0;
+background-image:none;}
+
+#wrapper{width: auto;
+min-width: 0;
+margin:0;}
+
+header{background-image:url("imagesfiles/javalogomobile.gif");
+background-position:center, no-repeat, height:80px;}
+
+nav{float:none;
+padding-top:0;
+margin-top:0;
+width:auto;}
+
+nav li{display:inline-block;}
+
+nav a{padding:1em;
+font-size:8em;
+font-weight:bold;
+border-style:none;}
+
+nav ul{padding:0;
+margin:0;}
+
+main{padding:2em;
+margin:0;
+font-size:90%;}}
+
+@media only screen and (max-width:768px)
+{nav a{display:block;
+padding:.2em;
+width:auto;
+border-bottom:1px #330000;}
+
+nav li{display:block;}
+
+h2{padding-bottom:0;
+padding-left:.5em;
+padding-right:0;
+padding-top:.5em;
+margin-right:.5em;}
+
+.details{padding-left:0;
+padding-right:0;}
+
+.floatright{display:none;}
+
+.floatleft{padding-left:.5em;
+padding-right:.5em;}
+
+#mobile{display:inline;}
+
+#desktop{display:none;}}
+
+table{width:90%;
+border-spacing:0;
+background-color: white;
+margin:auto;
+padding:10px;}
+
+tr:nth-of-type(odd){background-color:tan;}
+
+th{padding:10px;
+color:green;
+font-weight:bold;}
+
+td{padding:10px;
+color:purple;}
+
+form{
+	text-align: left;
+	margin: 5px;
+	padding-left:5em;
+	padding-right: 5em;
+	padding-top:5em;
+	padding-bottom:5em;
+}
